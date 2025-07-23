@@ -8,6 +8,16 @@ Feature Engineering: Raw market data is transformed into a rich feature set to b
 Model Training: Multiple models, including a Gradient Boosting Machine (LightGBM) and a Neural Network (MLP), are trained on the engineered features.
 
 Ensembling: The predictions from the individual models are combined using an optimized weighting scheme to produce a final, more robust prediction.
+## 💾 Data
+The dataset for this project is hosted on Google Drive. You will need to download it and place it in the appropriate directory to run the notebooks.
+
+Download Link: [DRW Crypto Market Prediction Dataset](https://drive.google.com/drive/folders/1axYIArBqH54ZvPXsV6q35hTgFYUGSDdG?usp=drive_link)
+
+Before running the notebooks, please ensure you have the train.parquet and test.parquet files available in a location that the notebooks can access. The notebooks are configured to look for the data in an /input/ directory, so a structure like this is recommended:
+
+/input/drw-crypto-market-prediction/ <br>
+├── train.parquet<br>
+└── test.parquet
 
 ## 📂 Repository Structure
 This repository is organized into a series of Jupyter notebooks, each responsible for a specific part of the machine learning pipeline.
