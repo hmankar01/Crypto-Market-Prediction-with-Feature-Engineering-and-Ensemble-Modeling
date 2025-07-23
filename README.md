@@ -1,0 +1,2 @@
+# Crypto-Market-Prediction-with-Feature-Engineering-and-Ensemble-Modeling
+This repository contains a comprehensive pipeline for predicting cryptocurrency market movements. The project leverages feature engineering, multiple machine learning models (LightGBM and a Multi-Layer Perceptron), and an optimized ensembling strategy to maximize predictive accuracy, as measured by the Pearson correlation coefficient.
