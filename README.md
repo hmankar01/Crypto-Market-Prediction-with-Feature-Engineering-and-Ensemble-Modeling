@@ -90,3 +90,14 @@ matplotlib
 seaborn
 optuna
 ```
+## 🏆 Results
+
+The project demonstrates that a weighted ensemble of models outperforms individual models. The final Pearson correlation scores on the out-of-fold predictions were as follows:
+
+| Model              | OOF Pearson Score |
+| ------------------ | ----------------- |
+| LightGBM (LGBM)    | 0.75383           |
+| MLP                | 0.62708           |
+| **Final Ensemble** | **0.68095** |
+
+The optimal weights were found to be approximately **75.25% for LGBM** and **33.75% for MLP**.
